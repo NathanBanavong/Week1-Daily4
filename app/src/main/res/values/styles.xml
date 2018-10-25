@@ -3,6 +3,41 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         <!-- Customize your theme here. -->
+        <item name="android:padding">3sp</item>
+    </style>
+
+    <!--custom style's for each section-->
+
+    <style name="Name" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:textColor">@color/colorNamePrimary</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Location" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:textColor">@color/colorLocationPrimary</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Education" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:textColor">@color/colorEducationPrimary</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Hobbies" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:textColor">@color/colorHobbyPrimary</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:padding">3dp</item>
+    </style>
+
+    <style name="Picture" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">5dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">5dp</item>
     </style>
 
 </resources>

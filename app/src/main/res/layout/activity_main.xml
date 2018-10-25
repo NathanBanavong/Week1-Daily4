@@ -1,19 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/ProfileNameView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_gravity="center"
+        android:text="@string/txtProfileName"
+        style="@style/Name"/>
 
-</android.support.constraint.ConstraintLayout>
+    <!--Relative Layout: Display Location-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Location">
+
+        <TextView
+            android:id="@+id/LocationView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/txtLocation"
+            style="@style/Location" />
+
+    </RelativeLayout>
+
+
+    <!--Education: -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Education">
+
+        <TextView
+            android:id="@+id/EducationView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="@string/txtEducation"
+            style="@style/Education" />
+
+    </LinearLayout>
+
+    <!--Hobbies-->
+    <TableLayout
+        android:id="@+id/HobbesView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/txtHobbiesTitle"
+        style="@style/Hobbies">
+
+        <!--display title of the table: Hobbies-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:paddingTop="3dp"
+            android:text="Hobbies"/>
+
+        <!--Hobbies: fill in table-->
+        <TableRow>
+
+            <TextView
+                android:text="@string/txtHobby_Soccer"
+                style="@style/Hobbies"/>
+
+            <TextView
+                android:gravity="left"
+                android:text="@string/txtHobby_Soccer_Exp"
+                style="@style/Hobbies"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="@string/txtHobby_Hiking"
+                style="@style/Hobbies"/>
+
+            <TextView
+                android:gravity="left"
+                android:text="@string/txtHobby_Hiking_Exp"
+                style="@style/Hobbies"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="@string/txtHobby_Eating"
+                style="@style/Hobbies"/>
+
+            <TextView
+                android:gravity="left"
+                android:text="@string/txtHobby_Eating_Exp"
+                style="@style/Hobbies"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="@string/txtHobby_Guitar"
+                style="@style/Hobbies"/>
+
+            <TextView
+                android:gravity="left"
+                android:text="@string/txtHobby_Guitar_Exp"
+                style="@style/Hobbies"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:text="@string/txtProfilePicture" />
+
+    <!--FrameLayout: Display Profile Picture-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Profile Picture"
+            android:src="@drawable/profilepic" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

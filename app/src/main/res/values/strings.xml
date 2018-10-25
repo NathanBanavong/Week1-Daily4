@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Week1-Daily4</string>
+    <string name="txtProfileName">Nathan Banavong Profile</string>
+    <string name="txtLocation">Location: Yorba Linda, CA</string>
+    <string name="txtHobbiesTitle">Hobbies</string>
+    <string name="txtHobby_Soccer">- Playing Soccer</string>
+    <string name="txtHobby_Hiking">- Hiking</string>
+    <string name="txtHobby_Eating">- Eating good food</string>
+    <string name="txtHobby_Guitar">- Playing Guitar</string>
+    <string name="txtHobby_Hiking_Exp">:Outdoor trails, is my adventure</string>
+    <string name="txtHobby_Eating_Exp">:Cooking and trying new food</string>
+    <string name="txtHobby_Guitar_Exp">:Learning new songs to play</string>
+    <string name="txtEducation">Education: Bachelor of Science in Information Technology</string>
+    <string name="txtHobby_Soccer_Exp">Team sport play and Strategy</string>
+    <string name="txtProfilePicture">Profile Picture</string>
+
 </resources>
