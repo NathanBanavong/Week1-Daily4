@@ -1,2 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Week1-Daily4</string>
+    <string name="txtProfileName">Профиль пользователя Nathan Banavong</string>
+    <string name="txtLocation">Расположение: Yorba Linda, CA</string>
+    <string name="txtHobbiesTitle">Хобби</string>
+    <string name="txtHobby_Soccer">- Играть в футбол</string>
+    <string name="txtHobby_Hiking">- Пеший туризм</string>
+    <string name="txtHobby_Eating">- Поедание пищи</string>
+    <string name="txtHobby_Guitar">- Играть на гитаре</string>
+    <string name="txtHobby_Hiking_Exp">:приключений на открытом воздухе</string>
+    <string name="txtHobby_Eating_Exp">:приготовление нового блюда</string>
+    <string name="txtHobby_Guitar_Exp">:Воспроизведение новых песен</string>
+    <string name="txtEducation">Образование: BS в области информационных технологий</string>
+    <string name="txtHobby_Soccer_Exp">Командный вид спорта</string>
+    <string name="txtProfilePicture">Изображение профиля</string>
+</resources>
